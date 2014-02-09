@@ -1,7 +1,7 @@
 Secure Your Server
 ==================
 
-A Linux Shell Script which is for CentOS 6.5.
+A Linux Shell Script which is to secure CentOS 6.5.
 This script is based on articles from cyberciti.biz. [1](http://www.cyberciti.biz/tips/linux-security.html), [2](http://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
 
 HOW TO USE IT
