@@ -11,6 +11,11 @@ HOW TO USE IT
     git clone https://github.com/iCEAGE/secure_server/
     /root/secure_server/centos6.5.sh
 
+IMPORTANT NOTE
+==============
+After this script has been run, you `cannot` login via root user from ssh. You
+should login via 'deployer' user.
+
 LICENSE
 =======
 Copyright (c) 2014 Hamed Ramezanian Nik
