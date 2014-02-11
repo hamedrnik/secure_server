@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # update and upgrade server
-yum update && yum -y upgrade
+yum -y update && yum -y upgrade
 
 # secure ssh (http://www.cyberciti.biz/tips/linux-unix-bsd-openssh-server-best-practices.html)
 printf "\n# Custom config from script\n"
