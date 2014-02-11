@@ -13,8 +13,8 @@ HOW TO USE IT
 
 IMPORTANT NOTE
 ==============
-After this script has been run, you `cannot` login via root user from ssh. You
-should login via 'deployer' user.
+After this script has been run, you `cannot` login with root user via ssh. You
+should login with 'deployer' user.
 
 LICENSE
 =======
