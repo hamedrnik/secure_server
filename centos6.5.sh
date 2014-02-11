@@ -28,13 +28,16 @@ AllowTcpForwarding no
 X11Forwarding no
 EOL
 
+# install wget
+yum -y install wget
+
 # enable EPEL repo
 wget http://download.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
 rpm -ivh epel-release-6-8.noarch.rpm
-rm epel-release-6-8.noarch.rpm
+rm -f epel-release-6-8.noarch.rpm
 
 # install and start denyhosts
-yum -y install denyhosts
+yum -y update && yum -y install denyhosts
 chkconfig denyhosts on
 service denyhosts start
 
