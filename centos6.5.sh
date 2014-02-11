@@ -23,8 +23,6 @@ cat >> /etc/ssh/sshd_config <<EOL
 UsePrivilegeSeparation yes
 # Prevent the use of insecure home directory and key file permissions
 StrictModes yes
-# Turn on  reverse name checking
-VerifyReverseMapping yes
 # Do you need port forwarding?
 AllowTcpForwarding no
 X11Forwarding no
