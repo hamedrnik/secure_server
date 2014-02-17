@@ -8,8 +8,8 @@ printf "\n# Custom config from script\n"
 
 echo "AllowUsers root deployer" >> /etc/ssh/sshd_config
 
-sed -i 's/^#ClientAliveInterval.*/ClientAliveInterval 300/' /etc/ssh/sshd_config
-sed -i 's/^#ClientAliveCountMax.*/ClientAliveCountMax 0/' /etc/ssh/sshd_config
+#sed -i 's/^#ClientAliveInterval.*/ClientAliveInterval 300/' /etc/ssh/sshd_config
+#sed -i 's/^#ClientAliveCountMax.*/ClientAliveCountMax 0/' /etc/ssh/sshd_config
 
 sed -i "s/^#IgnoreRhosts/IgnoreRhosts/g" /etc/ssh/sshd_config
 
