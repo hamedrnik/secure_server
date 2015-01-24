@@ -67,5 +67,11 @@ service yum-cron start
 # create deployer user
 useradd deployer
 
+# Add password to username deployer
+echo "Enter a password for deployer"
+read $password
+echo "deployer:$password" | chpasswd
+echo "Password has changed."
+
 echo "IMPORTANT: Use 'passwd deployer' to set a password for the user"
 echo "Now it's time to secure your Firewall server (https://github.com/jnaqsh/iptables_firewall/)"
